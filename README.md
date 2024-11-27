@@ -1,6 +1,6 @@
 # Geminip - CollectiveAccess
 
-Geminip - CollectiveAccess is a plugin developed to CollectivaAccess (that is an open-source software platform designed for 
+Geminip is a plugin developed for CollectivaAccess (that is an open-source software platform designed for 
 managing and presenting collections of various types, including museum artifacts, archival materials, and library materials. 
 It's particularly suitable for large and complex collections that require sophisticated cataloging and search capabilities).
 
