@@ -12,11 +12,12 @@ Firstly, Geminip contains a modulo that allows to generate artist's biography.
 
 # Installation
 
-  - This folder can be copied to path of [CollectiveAccess]/app/plugins. 
+  - This folder can be copied to path of [CollectiveAccess' path]/app/plugins. 
   
-  - You need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess]/app/plugins/geminip/geminip.conf.
+  - You need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/geminip/geminip.conf.
+    <p align="center">
     APIKEY = "copied_here_your_api_key_to_use_geminip" 
-  
+    </p>
 ## T
 
 <p align="center">
