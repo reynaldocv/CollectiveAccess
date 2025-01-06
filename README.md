@@ -12,12 +12,17 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
 
 # Requirenents on CollectiveAccess (providence)
 
-  - Go to management.
-    ![alt text](imgs/collectiveaccess-image01.png)
+  - Go to menu **manage > administration**.
+    ![](imgs/collectiveaccess-image01.png)
 
-    Once done, it is needed to raname the folder to "gemini". 
-  
-  - Now, you need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/gemini/Gemini.conf.
+  - Select a **METADATA ELEMENTS** and blick on right side buttion **New**.
+    ![](imgs/collectiveaccess-image01_.png)  
+  - Create a metadata element with the below information (**biography**), 
+    ![](imgs/collectiveaccess-image02.png)
+    
+    add the following restriction (this restriction garantes that the metadata biography is atributed only to **individuals** entities). 
+    
+    ![](imgs/collectiveaccess-image03.png)  
 
     ```
     APIKEY = "copied_here_your_api_key_to_use_Gemini" 
