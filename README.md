@@ -10,18 +10,32 @@ which are then integrated into CollectiveAccess's database.
 
 Firstly, Gemini contains a modulo that allows to generate artist's biography. 
 
+# Requirenents on CollectiveAccess (providence)
+
+  - Go to management.
+    ![alt text](imgs/collectiveaccess-image01.png)
+
+    Once done, it is needed to raname the folder to "gemini". 
+  
+  - Now, you need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/gemini/Gemini.conf.
+
+    ```
+    APIKEY = "copied_here_your_api_key_to_use_Gemini" 
+    ```
+
 # Installation
 
   - This folder can be copied to path of [CollectiveAccess' path]/app/plugins or the below code can be executed:
-  ```
-  git clone https://github.com/reynaldocv/Geminip-CollectiveAccess.git
-  ```
-  Then, we rename the folder to "gemini". 
+    ```
+    git clone https://github.com/reynaldocv/Geminip-CollectiveAccess.git
+    ```
+    Once done, it is needed to raname the folder to "gemini". 
   
-  - You need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/Gemini/Gemini.conf.
-    <p align="center">
+  - Now, you need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/gemini/Gemini.conf.
+
+    ```
     APIKEY = "copied_here_your_api_key_to_use_Gemini" 
-    </p>
+    ```
 ## T
 
 <p align="center">
