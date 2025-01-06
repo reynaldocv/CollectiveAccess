@@ -60,43 +60,19 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
     ```
 ## Tutorial
 
-<p align="center">
-  <img src="img/vamos-usuarionuevo.png">       
-</p>
+  - Go to menu **manage > administration**.
+    ![](imgs/tutorial-image01.png)
 
-## Tela de Criação de um novo usuário
+  - Select a **METADATA ELEMENTS** and blick on right side buttion **New**.
+    ![](imgs/tutorial-image01_.png)  
+  - Create a metadata element with the below information (**biography**), 
+    ![](imgs/tutorial-image02.png)
+    
+    add the following restriction (this restriction garantes that the metadata biography is atributed only to **individuals** entities). And, save it. 
+    ![](imgs/tutorial-image03.png)  
 
-<p align="center">
-  <img src="img/vamos.usuarionuevo.png">       
-</p>
+  - Go to menu **manage > administration > USER INTERFACES** and select to edit **Standard entity editor** (click no icon edit).
+    ![](imgs/tutorial-image04.png)
 
-<p align="center">
-  <img src="img/vamos-hobbies.png">       
-</p>
-
-## Tela de Eventos por Categorias
-
-<p align="center">
-  <img src="img/vamos-categorias.png">       
-</p>
-
-## Tela de Lista de Eventos como Postagens
-
-<p align="center">
-  <img src="img/vamos-eventos.png">       
-</p>
-
-
-## Tela de Lista de Eventos num Map
-
-<p align="center">
-  <img src="img/vamos-maps.png">       
-</p>
-
-
-## Tela de Chat (para estabelecer um encontro)
-
-<p align="center">
-  <img src="img/vamos-chat.png">       
-</p>
-
+  - Create a new screen **Extra info** (the name is not important!).    
+    ![](imgs/tutorial-image05.png)
