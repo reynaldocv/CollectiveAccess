@@ -36,20 +36,29 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
   - Now, we can see in the editing individuals the screen **Extra info** with the **biography** field.
     ![](imgs/collectiveaccess-image07.png)
 
+# Requirenents on Pawtucket 
+  - Edit the file "[Pawtucket's path]/themes/default/views/Details/ca_entities_default_html.php". And, add the following code:
+    ```html
+    {{{<ifdef code="ca_entities.biography"><div class='unit'><H6>Biography</H6>^ca_entities.biography</div></ifdef>}}}
+    ```
+    See below:
+    ![](imgs/pawtucket-image01.png)
+
 # Installation
 
   - This folder can be copied to path of [CollectiveAccess' path]/app/plugins or the below code can be executed:
     ```
     git clone https://github.com/reynaldocv/Geminip-CollectiveAccess.git
     ```
-    Once done, it is needed to raname the folder to "gemini". 
+> [!IMPORTANT]
+> Once done, it is needed to rename the folder to "gemini". 
   
-  - Now, you need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/gemini/Gemini.conf.
+  - Now, you need to generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/gemini/Gemini.conf.
 
     ```
     APIKEY = "copied_here_your_api_key_to_use_Gemini" 
     ```
-## T
+## Tutorial
 
 <p align="center">
   <img src="img/vamos-usuarionuevo.png">       
@@ -66,7 +75,6 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
 </p>
 
 ## Tela de Eventos por Categorias
-
 
 <p align="center">
   <img src="img/vamos-categorias.png">       
