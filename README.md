@@ -13,9 +13,9 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
 # Installation
 
   - This folder can be copied to path of [CollectiveAccess' path]/app/plugins or the below code can be executed:
-
-  - git clone https://github.com/reynaldocv/Geminip-CollectiveAccess.git
-
+  ```
+  git clone https://github.com/reynaldocv/Geminip-CollectiveAccess.git
+  ```
   Then, we rename the folder to "gemini". 
   
   - You need generate a APIKEY from google applications (https://ai.google.dev/gemini-api/docs) and copied to file [CollectiveAccess' path]/app/plugins/Gemini/Gemini.conf.
