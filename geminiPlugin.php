@@ -26,7 +26,7 @@
  * ----------------------------------------------------------------------
  */
  
-	class geminiPlugin extends BaseApplicationPlugin {
+	class GeminiPlugin extends BaseApplicationPlugin {
 		# -------------------------------------------------------
 		private $opo_config;
 		# -------------------------------------------------------

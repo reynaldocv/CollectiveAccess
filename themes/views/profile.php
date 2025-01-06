@@ -78,8 +78,7 @@
       <tr>
         <td style="width:50%">   
           <h2><?php print $labels["t_attribute"] ?> :  </h2>     
-          <textarea id="biography" name="biography" rows="30" cols="50"><?php print $item->get($attribute) ?></textarea>
-          
+          <textarea id="biography" name="biography" rows="30" cols="50"><?php print $item->get($attribute) ?></textarea>          
         </td>
         <td style="width:50%">    
           <h2><?php print $labels["t_query"] ?> : </h2>     
@@ -98,17 +97,16 @@
                 </span>
               </a>
             </div>
-            <!--
+            
             <div class="control-box-right-content">
               <a href="#" onclick="back()" class="form-button">
                 <span class="form-button">
-                  <i class="caIcon fa fa-backward " style="font-size: 25px;">
-                  </i>Default value
+                  <i class="caIcon fa fa-trash " style="font-size: 25px;">
+                  </i>Clear
                 </span>
               </a>
             </div>
-            -->
-        </td>
+                    </td>
         <td style="width:50%">  
           
 		        <div class="control-box-left-content">
@@ -170,17 +168,26 @@
       const biography = document.querySelector("#biography").value.trim();
 
       jQuery("#status").html("");
-
-      jQuery("#biography").html(biography + "\n\n" + resultado);
-
+      if (biography != ""){
+        jQuery("#biography").html(biography + "\n\n" + resultado);
+      }
+      else{
+        jQuery("#biography").html(resultado);
+      }
+      
     }
 
     function remove() {
       const resultado = document.querySelector("#resultado").value.trim();
 
-      jQuery("#status").html("");
-
       jQuery("#biography").html(resultado);
+
+    }
+
+    function back() {
+      const resultado = document.querySelector("#resultado").value.trim();
+
+      jQuery("#biography").html("");
 
     }
 
