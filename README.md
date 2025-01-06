@@ -83,9 +83,9 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
   - One can return to the list of artists using the menu **LIST OF ARTISTS** located on the leftside menu.
     ![](imgs/tutorial-image06.png)
 
-## We can see the biography in the following items:
+### We can see the biography in the following items:
 
- - on Collectiveaccess (providence), in the screen **Extra info** with the **biography** field.
+ - on Collectiveaccess (providence), we can see in the **biography** field in the screen **Extra info**.
   ![](imgs/result-image01.png)
  - on Pawtucket (watching the artist,s information).
   ![](imgs/result-image02.png)
