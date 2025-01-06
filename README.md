@@ -60,19 +60,25 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
     ```
 ## Tutorial (on Providence)
 
-  - If installing was successfully: now, we have a menu **Gemini > Entities**.
+  - If installing was successfully: now, we have a menu **Gemini > Entities**. Select it. 
     ![](imgs/tutorial-image01.png)
 
-  - Select a **METADATA ELEMENTS** and blick on right side buttion **New**.
-    ![](imgs/tutorial-image01_.png)  
-  - Create a metadata element with the below information (**biography**), 
+  - A list of all artist is shown. Select an artist. 
     ![](imgs/tutorial-image02.png)
     
-    add the following restriction (this restriction garantes that the metadata biography is atributed only to **individuals** entities). And, save it. 
-    ![](imgs/tutorial-image03.png)  
+  - A form is shown. There is a textbox with a text "brief biography of ---" (this text can be modified according to your preferences). Click on button gemini to initialize the searh using Gemini API. 
+    ![](imgs/tutorial-image03.png)
+    
+    The result is saved on the second textarea. 
+    ![](imgs/tutorial-image04.png)
+    In the bottom side, we have 4 icon buttons:
+      - Save: this icon saves the first textarea's content (*biography*) in memory. 
+      - Clear: This icon erases all data in the first textarea's content (*biography*). 
+      - Add: This icon selects the second textarea's content (*query to gemini*) to be added to the first textarea's content (*biography*). 
+      - Delete and Add: This icon replaces the first textarea's content (*query to gemini*) with second textarea's content (*biography*). 
 
   - Go to menu **manage > administration > USER INTERFACES** and select to edit **Standard entity editor** (click no icon edit).
-    ![](imgs/tutorial-image04.png)
+    ![](imgs/tutorial-image05.png)
 
   - Create a new screen **Extra info** (the name is not important!).    
     ![](imgs/tutorial-image05.png)
