@@ -12,7 +12,7 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
 
 # Requirements on CollectiveAccess (Providence)
 
-  - Go to menu **manage > administration**.
+  - Go to menu **MANAGE > Administration**.
     ![](imgs/collectiveaccess-image01.png)
 
   - Select a **METADATA ELEMENTS** and blick on right side buttion **New**.
@@ -23,7 +23,7 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
     add the following restriction (this restriction garantes that the metadata biography is atributed only to **individuals** entities). And, save it. 
     ![](imgs/collectiveaccess-image03.png)  
 
-  - Go to menu **manage > administration > USER INTERFACES** and select to edit **Standard entity editor** (click no icon edit).
+  - Go to menu **MANAGE > Administration > USER INTERFACES** and select to edit **Standard entity editor** (click no icon edit).
     ![](imgs/collectiveaccess-image04.png)
 
   - Create a new screen **Extra info** (the name is not important!).    
@@ -72,13 +72,12 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
     The result is saved on the second textarea. 
     ![](imgs/tutorial-image04.png)
     In the bottom side, we have 4 icon buttons:
-      - Save: this icon saves the first textarea's content (*biography*) in memory. 
-      - Clear: This icon erases all data in the first textarea's content (*biography*). 
-      - Add: This icon selects the second textarea's content (*query to gemini*) to be added to the first textarea's content (*biography*). 
-      - Delete and Add: This icon replaces the first textarea's content (*query to gemini*) with second textarea's content (*biography*). 
+      - **Save**: this icon saves the first textarea's content (*biography*) in memory. 
+      - **Clear**: This icon erases all data in the first textarea's content (*biography*). 
+      - **Add**: This icon selects the second textarea's content (*query to gemini*) to be added to the first textarea's content (*biography*). 
+      - **Delete and Add**: This icon replaces the first textarea's content (*query to gemini*) with second textarea's content (*biography*). 
 
-  - Go to menu **manage > administration > USER INTERFACES** and select to edit **Standard entity editor** (click no icon edit).
+  - In the following example, we select the icons **Add**, then **Save**
     ![](imgs/tutorial-image05.png)
 
-  - Create a new screen **Extra info** (the name is not important!).    
-    ![](imgs/tutorial-image05.png)
+  - One can return to the list of artists using the menu **LIST OF ARTISTS** located on the leftside menu. 
