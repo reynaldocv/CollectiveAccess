@@ -20,12 +20,18 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
   - Create a metadata element with the below information (**biography**), 
     ![](imgs/collectiveaccess-image02.png)
     
-    add the following restriction (this restriction garantes that the metadata biography is atributed only to **individuals** entities). 
-    
+    add the following restriction (this restriction garantes that the metadata biography is atributed only to **individuals** entities).     
     ![](imgs/collectiveaccess-image03.png)  
 
   - Go to menu **manage > administration > USER INTERFACES** and select to edit **Standard entity editor** (click no icon edit).
-    ![](imgs/collectiveaccess-image04.png)  
+    ![](imgs/collectiveaccess-image04.png)
+
+  - Create a new screen **Extra info** (the name is not important!).    
+    ![](imgs/collectiveaccess-image05.png)
+
+  - Enter to this new screen config. And, in the section "screen content", move the metadata element **biography** (initially positioned in the left side) to the rigth side.
+    And save it.
+    ![](imgs/collectiveaccess-image06.png)
 
 # Installation
 
