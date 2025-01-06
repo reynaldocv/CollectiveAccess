@@ -10,7 +10,7 @@ which are then integrated into CollectiveAccess's database.
 
 Firstly, Gemini contains a modulo that allows to generate artist's biography. 
 
-# Requirenents on CollectiveAccess (providence)
+# Requirements on CollectiveAccess (Providence)
 
   - Go to menu **manage > administration**.
     ![](imgs/collectiveaccess-image01.png)
@@ -36,7 +36,7 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
   - Now, we can see in the editing individuals the screen **Extra info** with the **biography** field.
     ![](imgs/collectiveaccess-image07.png)
 
-# Requirenents on Pawtucket 
+# Requirements on Pawtucket 
   - Edit the file "[Pawtucket's path]/themes/default/views/Details/ca_entities_default_html.php". And, add the following code:
     ```html
     {{{<ifdef code="ca_entities.biography"><div class='unit'><H6>Biography</H6>^ca_entities.biography</div></ifdef>}}}
@@ -58,9 +58,9 @@ Firstly, Gemini contains a modulo that allows to generate artist's biography.
     ```
     APIKEY = "copied_here_your_api_key_to_use_Gemini" 
     ```
-## Tutorial
+## Tutorial (on Providence)
 
-  - Go to menu **manage > administration**.
+  - If installing was successfully: now, we have a menu **Gemini > Entities**.
     ![](imgs/tutorial-image01.png)
 
   - Select a **METADATA ELEMENTS** and blick on right side buttion **New**.
